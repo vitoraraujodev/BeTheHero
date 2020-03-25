@@ -9,7 +9,8 @@ module.exports = {
     },
     migrations: {
       directory: './src/migrations'
-    }
+    },
+    useNullAsDefault: true,
   },
 
   staging: {
